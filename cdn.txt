@@ -1,0 +1,18 @@
+<link  rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
+
+if (module.hot) {
+  module.hot.accept();
+}
+
+
+
+key:   		68727ac4ca782ce8a7c18e661ad15f7982661c6198b17aa02d76357df0e79f51
+secret		47626ee215bdb2f20755228964aa8f54756bb33a483bf873cff6f21be8af1878
+
+
+Authorization: Client-ID YOUR_ACCESS_KEY
+
+
+
+client id:  	981589095015-l2o64bld58ocgb8n7vf2f4o3mpf7tvpp.apps.googleusercontent.com
+client secret:	V8gpWo5HPG2Uc9W-GBk-ziJl
