@@ -25,14 +25,21 @@ class StreamForm extends React.Component {
     }
   };
   renderSubmitButton = () => {
-    return <button className="ui button primary">Submit</button>;
+    const { invalid, submitting, pristine } = this.props;
+    return (
+      <button
+        disabled={invalid || submitting || pristine}
+        className="ui button primary"
+      >
+        Submit
+      </button>
+    );
   };
   onSubmit = formValues => {
     this.props.onSubmit(formValues);
   };
 
   render() {
-    console.log(this.props);
     return (
       <form
         className="ui form error"
